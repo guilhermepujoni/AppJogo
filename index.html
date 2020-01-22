@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Mata Moscas</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="appjogo.js"></script>
+
+    <script>
+        function iniciarJogo() {
+            var nivel = document.querySelector('#botaonivel').value
+
+            if(nivel === '') {
+                alert('Selecione um nível para jogar') 
+                return false
+            }
+            window.location.href = 'appJogo.html?' + nivel
+        }
+    </script>
+</head>
+<body>
+    <!-- Som de inicio e fim do jogos-->
+    <audio src="./sons/Blue-World.mp3" autoplay="autoplay" loop="loop" preload="auto"></audio>
+
+    <div class="imagensTelas">
+        <img src="imagens/game.png" alt="Play">
+    </div>
+    
+    <select name="nivel" id="botaonivel" > 
+        <option value="">-- Selecione um nível --</option>
+        <option value="medio">Médio</option>
+        <option value="dificil">Difícil</option>
+        <option value="feroz">Feroz</option>
+    </select>
+    
+    <button class="iniciarJogo" onclick="iniciarJogo()">Iniciar Jogo</button>
+</body>
+</html>
