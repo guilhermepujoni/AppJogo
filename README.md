@@ -3,7 +3,7 @@
 ## Descrição
 
 <p align="center">
-  <img src="https://i.imgur.com/wtoEcma.png">
+  <img src="https://i.imgur.com/wtoEcma.png" height="400">
 </p>
 
 Mata Mosquito é um jogo que tem como finalidade matar todos os mosquitos(Óbvio), em um tempo predeterminado.<br>O jogador tem 30 segundos para terminar a partir podendo perder no máximo 3 vidas.
