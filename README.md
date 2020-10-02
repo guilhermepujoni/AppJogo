@@ -2,6 +2,10 @@
 
 ## Descrição
 
+<p align="center">
+  <img src="https://i.imgur.com/wtoEcma.png">
+</p>
+
 Mata Mosquito é um jogo que tem como finalidade matar todos os mosquitos(Óbvio), em um tempo predeterminado.<br>O jogador tem 30 segundos para terminar a partir podendo perder no máximo 3 vidas.
 
 O jogo é criado em cima da linguagem de JavaScript, utilizando de artificíos para tornar um jogo atrativo e descontraído, e claro, com fundo musical de HAVAI-5-0 para tornar o processo o mais nostálgico possível.
