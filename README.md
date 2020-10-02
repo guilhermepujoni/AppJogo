@@ -1,4 +1,4 @@
-# AppJogo - Mata Mosquito
+# :beetle: AppJogo - Mata Mosquito
 
 ## Descrição
 
