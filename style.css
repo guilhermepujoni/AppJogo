@@ -1,10 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
 html {
     cursor: url(imagens/mata_mosca.png) 30 30, auto;
 }
 
 body {
-    background: url(imagens/bg.jpg) no-repeat;
+    background: url(imagens/bg.jpg) center no-repeat;
     
 }
 .imagensTelas {

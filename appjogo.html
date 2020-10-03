@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Página AppJogo</title>
 
     <link rel="stylesheet" href="style.css">
-    <script src="appjogo.js"></script>
+    <script src="/action/appjogo.js"></script>
 </head>
+
 <body onresize="ajusteTamanhoTela()">
 
     <audio src="./sons/Hawaii Five 0.mp3" autoplay="autoplay" loop="loop" preload="auto"></audio>
@@ -21,12 +23,13 @@
         <div class="cronometro">Tempo Restante: <span id="temporizador"></span></div>
     </section>
 
-    
+
     <script>
 
         document.querySelector('#temporizador').innerHTML = tempo
-        
-        var criarJogo = setInterval(function () {posicaoRandomicaMosca()}, criarTempoMosca)
+
+        var criarJogo = setInterval(function () { posicaoRandomicaMosca() }, criarTempoMosca)
     </script>
 </body>
+
 </html>
